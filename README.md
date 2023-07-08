@@ -35,5 +35,5 @@ pip install git+https://github.com/lucas-lm/spark-ai-cli
 Call CLI in your shell
 
 ```sh
-python -m pyspark-ai "https://github.com/topics/google"
+python -m pyspark-ai "https://github.com/topics/google --limit=20"
 ```
