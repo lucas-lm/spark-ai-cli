@@ -16,6 +16,8 @@ If you are not so sure about virtual environment, you can read this [article](ht
 
 ### Prerequisites
 
+Python supported version: ^3.10
+
 Java JDK 8 is required as a dependency of spark/pyspark itself. Make sure to have the JAVA_HOME environment variable setup as well.
 
 If your environment is already configured to run pyspark applications, you are good to go.
