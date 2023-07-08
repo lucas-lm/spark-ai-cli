@@ -4,6 +4,16 @@ SparkAI on CLI
 
 ## Installation
 
+It is recommended to use a virtual environment to install and run the CLI using python. This way you can avoid conflicts and incompatibilities if you already have some version of spark and pyspark (or any other dependency) installed in your computer.
+
+```sh
+# make sure to run the command in a test folder, or maybe new project folder
+python3 -m venv venv
+source ./venv/bin/activate
+```
+
+If you are not so sure about virtual environment, you can read this [article](https://medium.com/@pdx.lucasm/python-virtual-environments-18ee3e8d2c3f).
+
 ### Prerequisites
 
 Java JDK 8 is required as a dependency of spark/pyspark itself. Make sure to have the JAVA_HOME environment variable setup as well.
