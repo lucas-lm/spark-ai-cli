@@ -27,7 +27,7 @@ export GOOGLE_API_KEY='...'
 ### Install pyspark-ai-cli
 
 ```sh
-pip install git+https://github.com/lucas-lm/spark-ai-cli
+pip install spark-ai-cli
 ```
 
 ## Usage
